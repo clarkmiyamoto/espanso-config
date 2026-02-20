@@ -9,6 +9,3 @@ My Espanso keybindings
     /Users/<USER>/Library/Application Support/espanso
     ```
     I'm assuming you're using MacOS.
-
-
-
