@@ -2,10 +2,13 @@
 My Espanso keybindings
 
 # Installation
-1. Install Espanso (see tutorial)
+1. [Install Espanso](https://espanso.org/docs/install).
 
-2. Move this into
-```
-/Users/<USER>/Library/Application Support/espanso
-```
+2. Move everything in this repo into
+    ```
+    /Users/<USER>/Library/Application Support/espanso
+    ```
+    I'm assuming you're using MacOS.
+
+
 
