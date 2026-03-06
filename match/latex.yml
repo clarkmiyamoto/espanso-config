@@ -1,0 +1,30 @@
+filter_exec: "Obsidian"
+
+matches:
+
+  # LaTeX - Formatting
+  - trigger: ":align"
+    replace: "$$\n\\begin{align}\n$|$\n\\end{align}\n$$"
+
+  - trigger: ":$"
+    replace: "$$\n$|$\n$$"
+
+  - trigger: ":text"
+    replace: "\\text{$|$}"
+  
+  # LaTeX - Parentheses
+  - trigger: ":("
+    replace: "\\left( $|$ \\right)"
+
+  - trigger: ":["
+    replace: "\\left[ $|$ \\right]"
+  
+  - trigger: ":{"
+    replace: "\\left\\{ $|$ \\right\\}"
+  
+  # LaTeX - Probability
+  - trigger: ":expect"
+    replace: "\\mathbb E"
+  
+  - trigger: ":var"
+    replace: "\\text{Var}"
