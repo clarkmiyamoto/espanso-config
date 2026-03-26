@@ -22,6 +22,9 @@ matches:
   - trigger: ":{"
     replace: "\\left\\{ $|$ \\right\\}"
   
+  - trigger: ":|"
+    replace: "\\left | $|$ \\right |"  
+
   # LaTeX - Probability
   - trigger: ":expect"
     replace: "\\mathbb E"
